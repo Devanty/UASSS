@@ -1,0 +1,37 @@
+[
+    {
+        "judul_beranda" : "Sketch Check", 
+        "deskripsi_beranda" : "There are various kinds of sketches, choose the sketch you want and make the sketch yours. Create the latest fashion style now",
+
+        "judul_hal_sketsa" : "Traditional",
+        "deskripsi_hal_sketsa" : "A dress that retains a variety of traditional styles and patterns outside",
+
+        "tradisional_1":"Traditional Fashion",
+        "deskripsi_tradisional_1":"Combining traditional fashion sketches without eliminating the elegance of existing modern styles",
+        "keterangan_tradisional_1":"Woman's dress models that have a wide shape at the bottom, combining the concept of a princess with brocade motifs, pay attention to details combined with modern models without reducing the impression of grace elegnce",
+        "harga_tradisional_1":"Price : Rp. 250.000;",
+        "designer_tradisional_1":"Luna Alister",
+
+        
+        "modern_1":"Vintage Fashion",
+        "deskripsi_modern_1":"Combining vintage and casual fashion sketches without eliminating the elegance of existing modern styles",
+        "keterangan_modern_1":"Combining vintage and casual fashion sketches without eliminating the elegance of existing modern styles pay attention to details combined with modern models without reducing the impression of grace elegnce",
+        "harga_modern_1":"Price : Rp. 1.500.000;",
+        "designer_modern_1":"Cecillion",
+
+        "judul_hal_designer" : "Riska Aulia",
+        "deskripsi_hal_designer" : "Professionals in the field of sketching which contain traditional and modern elements",
+
+        "sketsa1_designer_1":"Ballroom Dress",
+        "deskripsi_sketsa1_designer_1":"Combining modern and vintage style plus elegance from the dress",
+        "keterangan_sketsa1_designer_1":"Woman's dress models that have a wide shape at the bottom, combining the concept of a princess with brocade motifs, pay attention to details combined with modern models without reducing the impression of grace elegnce",
+        "harga_sketsa1_designer_1":"Price : Rp. 950.000;",
+        
+        "sketsa1_designer_2":"Natural Dress",
+        "deskripsi_sketsa1_designer_2":"Combining flora and casual style plus elegance from the dress",
+        "keterangan_sketsa1_designer_2":"Combining flora and casual style plus elegance from the dress, pay attention to details combined with modern models without reducing the impression of grace elegnce",
+        "harga_sketsa1_designer_2":"Price : Rp. 900.000;",
+        "nama_designer_2":"Septiany Diyah"
+
+    }
+]

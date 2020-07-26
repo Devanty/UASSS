@@ -1,0 +1,794 @@
+  body {
+    margin-left: 5%;
+    margin-bottom: 0px;
+    margin-right: 5%;
+    font-family: serif;
+    grid-template-areas: "body";
+    color: black;
+  }
+
+  header {
+    background-color: white;
+  }
+  header ul.topnav {
+    list-style-type: none;
+    overflow: hidden;
+    margin-left: 0%;
+  }
+  header ul.topnav li {
+    float: left;
+  }
+  header ul.topnav li a {
+    display: inline-block;
+    background-color: grey;
+    color: black;
+    height: 30px;
+    padding-left: -4px;
+    padding-right: 10px;
+    text-decoration: none;
+    transition: 0.5s;
+  }
+  header ul.topnav li span {
+    display: inline-block;
+    background-color: grey;
+    height: 30px;
+    padding-left: -4px;
+    padding-right: 10px;
+    cursor: pointer;
+  }
+  header ul.topnav li:not(:first-child) {
+    display: none;
+  }
+  header ul.topnav li a:hover {
+    background-color: black;
+    color: white;
+    position: relative;
+  }
+  header ul.topnav.responsive {
+    position: absolute;
+    margin-right: 50%;
+    margin-top: -2.3%;
+  }
+  header ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  header ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  header ul.topnav.responsive a {
+    font-size: 15px;
+    font-family: serif;
+  }
+  header ul.topnav.responsive a:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-align: center;
+  }
+  header .font_awesome {
+    font-weight: bolder;
+    padding-left: 13px;
+  }
+
+  .nav {
+    background: grey;
+    height: 30px;
+    list-style-type: none;
+    padding: 1, 5px;
+    margin-left: 4%;
+    margin-top: -2.6%;
+  }
+
+  .nav li {
+    float: left;
+    height: 30px;
+  }
+
+  .nav li a {
+    color: black;
+    display: block;
+    font: 13px arial;
+    font-weight: bold;
+    padding: 9px 165px;
+    text-decoration: none;
+  }
+
+  .nav li:hover {
+    background: black;
+    position: relative;
+  }
+
+  .nav li:hover a {
+    text-decoration: double;
+    color: white;
+    font-weight: bold;
+  }
+
+  .nav li:hover ul {
+    background-color: #2c2c2b;
+    border: 1px solid grey;
+    left: 0px;
+    padding: 3px;
+    top: 30px;
+    width: 160px;
+  }
+
+  .nav li:hover ul li a {
+    background-color: #444;
+    border: 1px solid transparent;
+    color: #fff;
+    display: block;
+    font-size: 11px;
+    height: 18px;
+    line-height: 18px;
+    width: 157px;
+    padding: 1px;
+  }
+
+  .nav li:hover ul li a:hover {
+    background: silver;
+    border: solid 1px #444;
+    color: #000;
+    height: 18px;
+    padding: 1px;
+    text-align: center;
+  }
+
+  .nav ul {
+    left: -9999px;
+    list-style-type: none;
+    position: absolute;
+  }
+
+  .container_header {
+    display: grid;
+    grid-template-columns: 30% auto;
+  }
+  .container_header h1 {
+    font-family: serif;
+    font-size: 50px;
+    margin-top: 13%;
+  }
+  .container_header .img {
+    width: 250px;
+    height: 250px;
+  }
+  .container_header .search {
+    padding: 8px 15px;
+    background: #f0f8ff;
+    border: 2px solid #2e2e2e;
+  }
+  .container_header .searchbutton {
+    margin-left: 25px;
+  }
+  .container_header .tombol {
+    position: relative;
+    left: -20px;
+    padding: 10px 15px;
+    border: 0px solid #008080;
+    background-color: black;
+    color: #fafafa;
+    font-weight: bold;
+  }
+
+  .container_header_sign_in_login {
+    display: grid;
+    grid-template-columns: 30% auto;
+  }
+  .container_header_sign_in_login h1 {
+    font-family: serif;
+    font-size: 50px;
+    margin-top: 20%;
+  }
+
+  .non_nav {
+    background: grey;
+    padding: 1, 5px;
+    margin-left: 0%;
+    margin-right: 0%;
+    height: 30px;
+    font-size: 25px;
+    font-weight: lighter;
+    text-align: center;
+    font-family: serif;
+    margin-top: -4%;
+  }
+
+  .a_cancel {
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 31%;
+    margin-right: 31%;
+    cursor: pointer;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background: grey;
+    color: black;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-top: 4%;
+  }
+
+  .a_cancel:hover {
+    background-color: black;
+    color: white;
+    transition-duration: 1s;
+  }
+
+  .content .p_welcome {
+    font-family: serif;
+    font-size: 15px;
+    color:black;
+    font-weight: bolder;
+    background: white 255;
+    margin-right: 25%;
+    margin-left: 25%;
+  }
+  .content .p_welcome_h2 {
+    text-align: center;
+    font-family: serif;
+    font-size: 30px;
+    font-weight: bolder;
+    color:black;
+  }
+  .content .p_welcome_h3 {
+    font-family: serif;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    color:black;
+  }
+  .content .p_left {
+    font-family: serif;
+    font-size: 15px;
+    text-align: left;
+  }
+  .content .p_left h2 {
+    text-align: left;
+    font-family: serif;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .content .p_left h6 {
+    font-family: serif;
+    font-size: 15px;
+    text-align: left;
+    font-weight: normal;
+  }
+  .content .p_right {
+    font-family: serif;
+    font-size: 15px;
+    text-align: right;
+  }
+  .content .p_right h2 {
+    text-align: right;
+    font-family: serif;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .content .p_right h6 {
+    font-family: serif;
+    font-size: 15px;
+    text-align: right;
+    font-weight: normal;
+  }
+  .content .column_left {
+    float: left;
+    width: 50%;
+    padding: 9px 15px;
+    background: rgba(97, 97, 97, 0.63);
+    box-sizing: border-box;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 3%;
+    display: grid;
+  }
+  .content .column_left .container_left {
+    display: grid;
+    grid-template-columns: 40% auto;
+  }
+  .content .column_right {
+    float: right;
+    width: 50%;
+    padding: 9px 15px;
+    background: rgba(97, 97, 97, 0.63);
+    box-sizing: border-box;
+    margin-right: 3%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    display: grid;
+  }
+  .content .column_right .container_right {
+    display: grid;
+    grid-template-columns: 65% auto;
+  }
+  .content img {
+    width: 150px;
+    height: 150px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .content .deskripsi_left {
+    text-decoration: none;
+    color: black;
+    text-align: left;
+  }
+  .content .deskripsi_left a:hover {
+    text-decoration: dashed;
+    color: white;
+    background-color: black;
+  }
+  .content .deskripsi_right {
+    text-decoration: none;
+    color: black;
+    text-align: right;
+  }
+  .content .deskripsi_right a:hover {
+    text-decoration: dashed;
+    color: white;
+    background-color: black;
+  }
+
+  .judul_deskripsi {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background: #4b4b4b;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    text-decoration: 2px solid black;
+  }
+
+  .deskripsi_produk {
+    background-color: rgba(137, 139, 139, 0.336);
+    color: black;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 3%;
+    display: grid;
+    padding-bottom: 20px;
+  }
+  .deskripsi_produk img {
+    width: 300px;
+    height: 300px;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  .deskripsi_produk form {
+    text-align: center;
+    font-family: serif;
+  }
+  .deskripsi_produk form h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 10%;
+    color: black;
+  }
+  .deskripsi_produk form p {
+    font-size: 15px;
+    text-indent: 50px;
+    padding-right: 40px;
+    padding-left: 80px;
+    text-align: justify;
+  }
+  .deskripsi_produk form div {
+    float: center;
+    box-sizing: border-box;
+    display: grid;
+  }
+  .deskripsi_produk form div .container_div {
+    display: grid;
+    grid-template-columns: 35% auto;
+    color: black;
+  }
+  .deskripsi_produk form h5 {
+    font-size: larger;
+    text-align: left;
+    margin-top: 3%;
+    margin-left: 8%;
+    font-weight: bold;
+  }
+  .deskripsi_produk form h4, .deskripsi_produk form h6 {
+    text-align: center;
+    margin-top: 3%;
+    margin-left: 6%;
+  }
+  .deskripsi_produk form h6 {
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .deskripsi_produk form .a_checkout {
+    text-decoration: none;
+    margin-left: 20%;
+    margin-right: 20%;
+    cursor: pointer;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background: grey;
+    color: black;
+    font-weight: bolder;
+    cursor: pointer;
+  }
+  .deskripsi_produk form .a_checkout:hover {
+    color: white;
+    background: black;
+    text-decoration: dashed;
+    transition: 1s;
+  }
+
+  .judul_order_sign_in_process {
+    background-color: grey;
+    text-align: center;
+    font-family: serif;
+    font-size: 30px;
+  }
+
+  .form_order_process {
+    padding: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+    background: rgba(54, 56, 59, 0.5);
+  }
+  .form_order_process .form_putih {
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+  .form_order_process .form_putih label {
+    border-bottom: 1px solid;
+    border-color: black;
+    padding-left: 69px;
+    padding-right: 93px;
+    font-family: serif;
+    font-size: 17px;
+  }
+  .form_order_process .form_putih a {
+    font-size: 15px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: black;
+  }
+  .form_order_process input {
+    padding: 2px 38px;
+    border: transparent;
+    border-bottom: 1px solid #000;
+  }
+  .form_order_process .div_button_proses_cancel {
+    margin-top: 3%;
+  }
+  .form_order_process .a_button, .form_order_process .a_button_cancel, .form_order_process .a_button_proses, .form_order_process .a_button_proses_payment, .form_order_process .a_button_proses_form_order {
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    background: grey;
+    color: white;
+    font-weight: bolder;
+    font-family: serif;
+    font-size: 13px;
+    margin-left: 27.5%;
+    margin-top: 4%;
+    padding: 3px;
+    padding-left: 155px;
+  }
+  .form_order_process .a_button_proses_form_order {
+    padding-right: 158px;
+  }
+  .form_order_process .a_button_proses_form_order:hover {
+    background: #383838;
+    transition: 1s;
+  }
+  .form_order_process .a_button_proses_payment {
+    padding-right: 158px;
+  }
+  .form_order_process .a_button_proses_payment:hover {
+    background: #383838;
+    transition: 1s;
+  }
+  .form_order_process .a_button_proses {
+    padding-right: 150px;
+  }
+  .form_order_process .a_button_proses:hover {
+    background: #383838;
+    transition: 1s;
+  }
+  .form_order_process .a_button_cancel {
+    padding-right: 157px;
+  }
+  .form_order_process .a_button_cancel:hover {
+    background: #383838;
+    transition: 1s;
+  }
+  .form_order_process table {
+    margin-left: 27%;
+  }
+  .form_order_process .dress_choice {
+    font-family: serif;
+    margin-left: 27.5%;
+    margin-right: 15%;
+    padding-top: 4px;
+    padding-left: 4px;
+    padding-bottom: 4px;
+    background: grey;
+    display: grid;
+  }
+  .form_order_process .dress_choice img {
+    width: 100px;
+    height: 100px;
+    margin-left: 40%;
+  }
+  .form_order_process .dress_choice div {
+    display: grid;
+    grid-template-columns: 50% auto;
+    box-sizing: border-box;
+  }
+  .form_order_process .dress_choice .keterangan_order .jenis_sketch {
+    margin-left: 35%;
+    margin-right: -50%;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 30%;
+  }
+  .form_order_process .dress_choice .keterangan_order .nama_desaigner {
+    margin-right: -50%;
+    margin-left: 37%;
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 10%;
+  }
+
+  .menu_process {
+    background-color: white;
+    border: 2px solid black;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-weight: bold;
+    display: grid;
+    box-sizing: border-box;
+  }
+  .menu_process .jarak_tr td {
+    padding: 2px;
+    text-align: left;
+  }
+  .menu_process button {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 5%;
+    background: #131044;
+    color: white;
+    font-weight: lighter;
+    cursor: pointer;
+  }
+  .menu_process span {
+    margin-left: 10%;
+    font-weight: normal;
+  }
+  .menu_process .picture_menu_process {
+    font-family: serif;
+    margin-left: 0.2%;
+    margin-right: 15%;
+    padding-top: 4px;
+    padding-left: 4px;
+    padding-bottom: 4px;
+    background: grey;
+    display: grid;
+  }
+  .menu_process .picture_menu_process img {
+    width: 100px;
+    height: 100px;
+    margin-left: 2%;
+  }
+  .menu_process .picture_menu_process div {
+    display: grid;
+    grid-template-columns: 44% auto;
+    box-sizing: border-box;
+  }
+  .menu_process .picture_menu_process .keterangan_menu_process .jenis_sketch_menu_process {
+    margin-left: 0%;
+    margin-right: -70%;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 25%;
+  }
+
+  .login_sign_in {
+    padding: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+    background: rgba(128, 128, 128, 0.473);
+    font-family: serif;
+  }
+  .login_sign_in .form_putih_login {
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .login_sign_in .input_sign_in {
+    padding: 5px 50px;
+    border: transparent;
+    border-bottom: 1px solid #000;
+  }
+  .login_sign_in .input_login {
+    padding: 10px 35px;
+    border: 1px solid black;
+  }
+  .login_sign_in table {
+    margin-top: 10%;
+    font-size: 16px;
+    font-weight: bolder;
+  }
+  .login_sign_in .button_sign_in, .login_sign_in .button_login {
+    font-size: 15px;
+    font-weight: bolder;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    display: grid;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 6%;
+    background-color: dimgrey;
+    cursor: pointer;
+  }
+  .login_sign_in .button_sign_in a, .login_sign_in .button_login a {
+    text-decoration: none;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .login_sign_in .button_sign_in a:hover, .login_sign_in .button_login a:hover {
+    color: white;
+  }
+  .login_sign_in .button_sign_in:hover, .login_sign_in .button_login:hover, .login_sign_in .button_sign_in:focus, .login_sign_in .button_login:focus {
+    background-color: black;
+    outline: 1px;
+  }
+  .login_sign_in .button_login {
+    margin-left: 26%;
+    margin-right: 26%;
+  }
+  .login_sign_in .button_login:hover, .login_sign_in .button_login:focus {
+    background-color: black;
+    color: white;
+    outline: 1px;
+  }
+  .login_sign_in .efek_linear {
+    border: 1px solid;
+    border-color: black;
+    color: white;
+    text-align: center;
+    background-image: linear-gradient(45deg, #000000 50%, transparent 11%);
+    background-position: 100%;
+    background-size: 400%;
+    transition: background 300ms ease-in-out;
+  }
+  .login_sign_in .efek_linear:hover {
+    background-position: 0;
+  }
+  .login_sign_in .forgot_password {
+    text-align: center;
+    margin-top: 4%;
+  }
+  .login_sign_in .forgot_password a {
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+  }
+  .login_sign_in .forgot_password a:hover {
+    font-weight: bold;
+    color: blue;
+  }
+  .login_sign_in .css_div {
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 3%;
+  }
+  .login_sign_in hr {
+    border: double;
+    color: black;
+    border-width: 1.5px;
+    background-color: black;
+  }
+  .login_sign_in .css_div2 {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 3%;
+  }
+  .login_sign_in .css_div2 div {
+    margin-top: 3%;
+  }
+  .login_sign_in .css_div2 div a {
+    font-size: 14px;
+    color: black;
+  }
+  .login_sign_in .css_div2 div a:hover {
+    text-decoration-color: blue;
+    font-weight: bold;
+    color: blue;
+  }
+  .css_or
+  {
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 3%;
+    color: black;
+    font-weight: bolder;
+  }
+  footer, .footer_sign_in_deskripsi, .footer_beranda, .footer_full {
+    display: grid;
+    text-align: center;
+    background: white;
+    padding-bottom: 80px;
+    margin-bottom: -50px;
+  }
+  footer .container_footer, .footer_sign_in_deskripsi .container_footer, .footer_beranda .container_footer, .footer_full .container_footer {
+    display: grid;
+    grid-template-columns: 30% auto;
+    margin-left: 41%;
+  }
+  footer .fb_tweet_wa, .footer_sign_in_deskripsi .fb_tweet_wa, .footer_beranda .fb_tweet_wa, .footer_full .fb_tweet_wa {
+    width: 60px;
+    height: 60px;
+  }
+
+  .footer_full {
+    margin-top: 10%;
+  }
+
+  .footer_beranda {
+    margin-top: 50%;
+  }
+
+  .footer_sign_in_deskripsi {
+    margin-top: 30%;
+  }
+
+  .div_grid {
+    display: grid;
+    padding-top: 5px;
+    text-align: center;
+  }
+
+  .div_button {
+    margin-top: 3%;
+  }
+  .div_button .div_a_button {
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    background: grey;
+    color: black;
+    font-weight: bolder;
+    font-family: serif;
+    font-size: 13px;
+    margin-left: 25%;
+    margin-top: 4%;
+    padding: 3px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .div_button .div_a_button:hover {
+    background: #383838;
+    transition: 1s;
+    color: white;
+  }

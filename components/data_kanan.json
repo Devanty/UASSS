@@ -1,0 +1,36 @@
+[
+    {
+        "judul_beranda" : "Designer Check", 
+        "deskripsi_beranda" : "Find sketches from your favorite designers, and get the sketch you want",
+
+        "judul_hal_sketsa" :"Modern Sketch", 
+        "deskripsi_hal_sketsa" : "Dresses that keep up with the times and times and keep changing with a more elegant style",
+
+        "tradisional_2":"Batik Motif Dress",
+        "deskripsi_tradisional_2":"Traditional dress wrapped in an archipelago batik motif",
+        "keterangan_tradisional_2":"Woman's dress models that have a wide shape at the bottom, combining the concept of a princess with brocade motifs, pay attention to details combined with modern models without reducing the impression of grace elegnce",
+        "harga_tradisional_2":"Price : Rp. 250.000;",
+        "designer_tradisional_2":"Lovellyna",
+
+        "modern_2":"Modern Dress",
+        "deskripsi_modern_2":"Modern dress wrapped in an archipelago elegance motif",
+        "keterangan_modern_2":"Modern dress wrapped in an archipelago elegance motif elegance of existing modern styles pay attention to details combined with modern models without reducing the impression of grace elegnce",
+        "harga_modern_2":"Price : Rp. 300.000;",
+        "designer_modern_2":"L~Rabels",
+        
+        "judul_hal_designer" : "Septiany Diyah",
+        "deskripsi_hal_designer" : "Sketch design with a modern theme that has a variety of styles to be applied in daily activities",
+        
+        "sketsa2_designer_1":"Casual Sketch",
+        "deskripsi_sketsa2_designer_1":"Sketches that can be used to move and prioritize comfort in use",
+        "keterangan_sketsa2_designer_1":"Sketches that can be used to move and prioritize comfort in use",
+        "harga_sketsa2_designer_1":"Price : Rp. 750.000;",
+        "nama_designer_1":"Riska Aulia",
+
+        "sketsa2_designer_2":"Formal Style",
+        "deskripsi_sketsa2_designer_2":"Formal design to sharpen your character and become more confident",
+        "keterangan_sketsa2_designer_2":"Sketches that can be used to move and prioritize comfort in use and Formal design to sharpen your character and become more confident",
+        "harga_sketsa2_designer_2":"Price : Rp. 2.900.000;"
+
+    }
+]
